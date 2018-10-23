@@ -1241,7 +1241,7 @@ class TelegramBot extends EventEmitter {
     }
     //form.media = media;
     // return this._request('editMessageMedia', { form });
-    return this._request('sendPhoto', opts);
+    return this._request('editMessageMedia', opts);
   }
 
   /**
